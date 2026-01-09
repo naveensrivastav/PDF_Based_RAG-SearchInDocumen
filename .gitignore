@@ -1,0 +1,67 @@
+########################
+# Python
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+########################
+# Virtual Environments
+########################
+.venv/
+venv/
+env/
+ENV/
+
+########################
+# Environment & Secrets
+########################
+.env
+.env.*
+.streamlit/secrets.toml
+
+########################
+# Streamlit
+########################
+.streamlit/config.toml
+
+########################
+# Uploaded / Local Data
+########################
+*.pdf
+data/
+uploads/
+tmp/
+
+########################
+# Vector Databases
+########################
+chroma/
+chromadb/
+*.sqlite3
+
+########################
+# LangChain / Cache
+########################
+.langchain/
+.cache/
+hf_cache/
+huggingface/
+
+########################
+# OS / Editor
+########################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+########################
+# Logs
+########################
+*.log
