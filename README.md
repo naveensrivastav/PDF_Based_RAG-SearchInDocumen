@@ -16,11 +16,12 @@ A Streamlit-based application that allows users to upload PDF documents and ask 
 - PyPDF
 - ChromaDB
 - Sentence Transformers
+- HuggingfaceEmbedding
 
 ## 🛠️ Setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/naveensrivastav/PDF_Based_RAG-SearchInDocumen
 cd pdf-qna-app
 pip install -r requirements.txt
 streamlit run app.py
